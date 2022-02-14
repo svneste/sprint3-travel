@@ -1,0 +1,8 @@
+.lang__item {
+	display: inline;
+	margin-right: 18px;
+}
+
+.lang__item:last-of-type {
+	margin-right: 0;
+}

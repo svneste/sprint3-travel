@@ -1,0 +1,18 @@
+.lang__link {
+	margin: 0;
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	line-height: calc(28/24);
+	transition: opacity 1s ease;
+}
+
+.lang__link:hover {
+	opacity: 0.8;
+}
+
+@media screen and (max-width:768px) {
+  .lang__link {
+    font-size: 18px;
+  }
+}
